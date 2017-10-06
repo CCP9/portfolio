@@ -1,12 +1,137 @@
 <html>
     <head>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
-    <body>
-        
+	<body id="bodyid" data-spy="scroll" data-target=".navbar" data-offset="50">
+	  <nav class="navbar navbar-default no-margin custom-navbar navbar-fixed-top">
+	    <div class="container">
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span> 
+	        </button>
+	        <a class="navbar-brand" style="color: white" href="#">Portfolio Name</a>
+	      </div>
+	      <ul class="nav navbar-nav collapse navbar-collapse pull-right" id="myNavbar">
+	        <li class="cs-nav-link" style=""><a href="#bodyid"><b>ABOUT</b></a></li>
+	        <li class="cs-nav-link"><a href="#page-portfolio"><b>PORTFOLIO</b></a></li>
+	        <li class="cs-nav-link"><a href="#page-contact"><b>CONTACT</b></a></li>
+	      </ul>
+	    </div>
+	  </nav>
+
+	  <div class="container main">
+	    <div class="jumbotron" style="margin-top: 50px"> 
+	      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+	    </div>
+	  </div>
+
+	  <div class="container" id="page-portfolio">
+	    <div class="row">
+	      <center><h3 class="bot-margin">PORTFOLIO</h3></center>
+	      <div class="col-sm-4">
+	        <img class="img-responsive bot-margin" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	      <div class="col-sm-4">
+	        <img class="img-responsive bot-margin" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	      <div class="col-sm-4">
+	        <img class="img-responsive bot-margin" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	      <div class="col-sm-4 bot-margin">
+	        <img class="img-responsive" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	      <div class="col-sm-4 bot-margin">
+	        <img class="img-responsive" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	      <div class="col-sm-4 bot-margin">
+	        <img class="img-responsive" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	      <div class="col-sm-4 bot-margin">
+	        <img class="img-responsive" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	      <div class="col-sm-4 bot-margin">
+	        <img class="img-responsive" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	      <div class="col-sm-4 bot-margin">
+	        <img class="img-responsive" src="http://www.teaenergiamnbasketgeneration.it/wp-content/uploads/2015/11/placeholder_600x400.svg" alt="thumbnail">
+	      </div>
+	    </div>    
+	  </div>
+
+	  <div class="container" id="page-contact">
+	    <div class="row">
+	      <center><h3 class="bot-margin">CONTACT</h3></center>
+	      <div class = "col-xs-6">
+	        <form action="#">
+	          <div class="row">
+	            <div class = "col-xs-6">
+	              <input type = "text" id="name-field" placeholder="Name">
+	            </div> 
+	          </div>
+	          <div class="row">
+	            <div class = "col-xs-6">
+	              <input type = "text" id="surname-field" placeholder="Surname">
+	            </div> 
+	          </div>
+	          <div class="row">
+	            <div class = "col-xs-6">
+	              <input type = "text" id="mobile-field" placeholder="Mobile">
+	            </div> 
+	          </div>
+	          <div class="row">
+	            <div class = "col-xs-6">
+	              <input type = "text" id="email-field" placeholder="Email">
+	            </div>
+	          </div>
+	          <div class="row">
+	            <div class = "col-xs-6"> 
+	              <textarea id="message-field" placeholder="Message"></textarea>
+	            </div> 
+	          </div>   
+	          <div class="row">
+	            <div class = "col-xs-6">
+	              <button type="submit" class="btn btn-primary cs-btn">Send</button>
+	            </div>
+	          </div>
+	        </form>
+	      </div>
+	      
+	      <div class="col-xs-6">
+	        <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h5>
+	        <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+	      </div>
+	    </div>  
+	  </div>
+
+	  <div class="container-fluid cs-yellow">
+	  	<h5 class="inline-header">Made by Chris Pretorius</h5>
+	      <ul class="social-ul">
+	        <li>
+	          <a class="button social" href="https://www.facebook.com/">
+	          <i class="fa fa-fw fa-facebook"></i></a>
+	        </li>
+	        <li>
+	          <a class="button social" href="https://twitter.com/">
+	          <i class="fa fa-fw fa-twitter"></i></a>       
+	        </li>
+	        <li>
+	          <a class="button social" href="https://www.linkedin.com/">
+	          <i class="fa fa-fw fa-linkedin"></i></a>
+	        </li>
+	      </ul>
+	  </div>
+
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="scripts/scripts.js"></script>
+
+        <script>
+		  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+		  ':35729/livereload.js?snipver=1"></' + 'script>')
+		</script>
     </body>
 </html>
